@@ -39,7 +39,7 @@ Create the Python environment:
 ```bash
 python3 -m venv venv
 source venv/bin/activate
-pip install --upgrade wheel
+pip install --upgrade pip wheel
 pip install -r requirements.txt
 ```
 
@@ -52,6 +52,6 @@ pip install -r requirements.txt
 Look for the results in `tests/basic/run000/`.
 
 ## License
-* © 2020-2021 Barcelona Supercomputing Center (BSC), ES
+* © 2020-2022 Barcelona Supercomputing Center (BSC), ES
 
 Licensed under the Apache License [Version 2.0](https://www.apache.org/licenses/LICENSE-2.0), see the file `LICENSE` for details.
